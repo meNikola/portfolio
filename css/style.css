@@ -252,6 +252,7 @@ main#home h1 {
   margin: auto;
   border-radius: 50%;
   border: 3px solid #eece1a;
+  width: 100%;
 }
 
 .bio {
@@ -523,6 +524,14 @@ main#home h1 {
     grid-template-columns: 1fr;
   }
 
+  main#contact h1 {
+    font-size: 60px !important;
+  }
+
+  .boxes div:first-child {
+    font-size: 20px !important;
+  }
+
 }
 
 
@@ -541,5 +550,7 @@ main#home h1 {
   main#work h1 {
     font-size: 75px !important;
   }
+
+  
 
 }
