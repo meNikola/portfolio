@@ -242,40 +242,20 @@ main#home h1 {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-  'bioimage bio bio'
-  'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr);
+  'bioimage bio';
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .bio-image {
   grid-area: bioimage;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 5% 5% 50% 5%;
   border: 3px solid #eece1a;
-  width: 100%;
 }
 
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-}
-
-.job-1 {
-  grid-area: job1;
-}
-
-.job-2 {
-  grid-area: job2;
-}
-
-.job-3 {
-  grid-area: job3;
-}
-
-.job {
-  background: #515151;
-  padding: 0.5rem;
-  border-bottom: 5px solid #eece1a;
 }
 
 
@@ -551,6 +531,8 @@ main#home h1 {
     font-size: 75px !important;
   }
 
-  
+  .about-info .bio-image {
+    width: 100%;
+  }
 
 }
